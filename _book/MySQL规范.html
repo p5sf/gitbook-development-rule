@@ -1,0 +1,453 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>MySQL规范 · 开发规范</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="随风">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-flexible-alerts/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-theme-lou/lou.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="项目规范.html" />
+    
+    
+    <link rel="prev" href="日志规范.html" />
+    
+
+    </head>
+    <body>
+         
+
+<div class="book">
+  <div class="header-inner">
+    <!-- LOGO -->
+    <div class="logo"></div>
+    <span class="title"></span>
+
+    <!-- Search -->
+    
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+
+    <!-- Nav -->
+    <ul class="header-nav">
+      <li>
+        <a href="https://space.bilibili.com" target="_blank">B站</a>
+      </li><li>
+        <a href="https://ke.qq.com/course" target="_blank">腾讯课堂</a>
+      </li><li>
+        <a href="https://github.com/p5sf" target="_blank">GitHub</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="book-summary">
+    <div class="book-summary-title">文档目录</div>
+     
+    <nav role="navigation">
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    首页
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="文档规范.html">
+            
+                <a href="文档规范.html">
+            
+                    
+                    文档规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    统一规范
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="common/代码格式.html">
+            
+                <a href="common/代码格式.html">
+            
+                    
+                    代码格式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="common/命名风格.html">
+            
+                <a href="common/命名风格.html">
+            
+                    
+                    命名风格
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="common/目录规范.html">
+            
+                <a href="common/目录规范.html">
+            
+                    
+                    目录规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="日志规范.html">
+            
+                <a href="日志规范.html">
+            
+                    
+                    日志规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5" data-path="MySQL规范.html">
+            
+                <a href="MySQL规范.html">
+            
+                    
+                    MySQL规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="项目规范.html">
+            
+                <a href="项目规范.html">
+            
+                    
+                    项目规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+</nav>
+     
+  </div>
+
+  <!-- Content nav -->
+  <div class="book-anchor">
+    <div class="book-anchor-title"></div>
+
+    <div class="book-anchor-body"></div>
+  </div>
+
+  <div class="book-body">
+    
+    <div class="body-inner">
+       
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >MySQL规范</a>
+    </h1>
+</div>
+
+
+
+      <div class="page-wrapper" tabindex="-1" role="main">
+        <div class="page-inner">
+          
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+          <section class="normal markdown-section">
+             <h1 id="mysql-&#x89C4;&#x8303;">MySQL &#x89C4;&#x8303;</h1>
+<h2 id="&#x5B57;&#x6BB5;&#x89C4;&#x8303;">&#x5B57;&#x6BB5;&#x89C4;&#x8303;</h2>
+<ul>
+<li>&#x5B57;&#x6BB5;&#x540D;&#x5FC5;&#x987B;&#x4F7F;&#x7528;&#x5C0F;&#x5199;&#x5B57;&#x6BCD;&#x6216;&#x6570;&#x5B57;&#xFF0C;&#x591A;&#x5355;&#x8BCD;&#x91C7;&#x7528;&#x86C7;&#x5F62;&#x547D;&#x540D;&#x6CD5;&#xFF08;&#x4E0B;&#x5212;&#x7EBF;&#x5206;&#x5272;&#xFF09;</li>
+<li>&#x7981;&#x7528;&#x4FDD;&#x7559;&#x5B57; &#x5C0F;&#x6570;&#x7C7B;&#x578B;&#x4E3A; decimal &#x5982;&#x679C;&#x5B58;&#x50A8;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x957F;&#x5EA6;&#x51E0;&#x4E4E;&#x76F8;&#x7B49;&#xFF0C;&#x4F7F;&#x7528; char &#x5B9A;&#x957F;&#x5B57;&#x7B26;&#x4E32;&#x7C7B;&#x578B;&#x3002;</li>
+<li>&#x2B50; &#x8868;&#x540D;&#x3001;&#x5B57;&#x6BB5;&#x540D;&#x5FC5;&#x987B;&#x4F7F;&#x7528;&#x5C0F;&#x5199;&#x5B57;&#x6BCD;&#x6216;&#x6570;&#x5B57;&#xFF0C;&#x7981;&#x6B62;&#x51FA;&#x73B0;&#x6570;&#x5B57;&#x5F00;&#x5934;&#xFF0C;&#x8868;&#x540D;&#x4E0D;&#x4F7F;&#x7528;&#x590D;&#x6570;&#x540D;&#x8BCD;</li>
+<li>&#x5B57;&#x6BB5;&#x5EFA;&#x8BAE;&#x52A0;&#x4E0A;id,create_time,update_time&#x3002;</li>
+<li>&#x8868;&#x8FBE;&#x662F;&#x4E0E;&#x5426;&#x6982;&#x5FF5;&#x7684;&#x5B57;&#x6BB5;&#xFF0C;&#x4F7F;&#x7528;is_xxx&#x7684;&#x65B9;&#x5F0F;&#x547D;&#x540D;&#xFF0C;&#x4F46;OJO&#x7C7B;&#x4E2D;&#x7684;&#x4EFB;&#x4F55;&#x5E03;&#x5C14;&#x7C7B;&#x578B;&#x7684;&#x53D8;&#x91CF;&#xFF0C;&#x90FD;&#x4E0D;&#x8981;&#x52A0;is&#x524D;&#x7F00;&#xFF0C;&#x8981;&#x6C42;&#x5728; resultMap &#x4E2D;&#x8FDB;&#x884C;&#x5B57;&#x6BB5;&#x4E0E;&#x5C5E;&#x6027;&#x4E4B;&#x95F4;&#x7684;&#x6620;&#x5C04;&#x3002;</li>
+<li>&#x5C3D;&#x91CF;&#x628A;&#x6240;&#x6709;&#x5217;&#x5B9A;&#x4E49;&#x4E3A;NOT NULL&#x3002;&#xFF0C;NULL&#x5217;&#x9700;&#x8981;&#x4E00;&#x4E2A;&#x989D;&#x5916;&#x5B57;&#x8282;&#x4F5C;&#x4E3A;&#x5224;&#x65AD;&#x662F;&#x5426;&#x4E3A; NULL &#x7684;&#x6807;&#x5FD7;&#x4F4D;</li>
+<li>&#x5B57;&#x6BB5;&#x5141;&#x8BB8;&#x9002;&#x5F53;&#x5197;&#x4F59;&#xFF0C;&#x4E0D;&#x662F;&#x9891;&#x7E41;&#x4FEE;&#x6539;&#x7684;&#x5B57;&#x6BB5;&#x3002; &#x4E0D;&#x662F;&#x552F;&#x4E00;&#x7D22;&#x5F15;&#x7684;&#x5B57;&#x6BB5;&#x3002;&#x4E0D;&#x662F; varchar &#x8D85;&#x957F;&#x5B57;&#x6BB5;</li>
+<li>&#x8868;&#x8FBE;&#x662F;&#x4E0E;&#x5426;&#x6982;&#x5FF5;&#x7684;&#x5B57;&#x6BB5;&#xFF0C;&#x5FC5;&#x987B;&#x4F7F;&#x7528; is_xxx &#x7684;&#x65B9;&#x5F0F;&#x547D;&#x540D;&#xFF0C;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x662F; unsigned tinyint  1&#x8868;&#x793A;&#x662F;&#xFF0C;0&#x8868;&#x793A;&#x5426;)</li>
+</ul>
+<h2 id="&#x7D22;&#x5F15;&#x89C4;&#x8303;">&#x7D22;&#x5F15;&#x89C4;&#x8303;</h2>
+<ul>
+<li>&#x7D22;&#x5F15;&#x547D;&#x540D;&#x89C4;&#x8303;&#xFF1A;&#x4E3B;&#x952E;&#x7D22;&#x5F15;&#xFF1A; pk<em> &#x5B57;&#x6BB5;&#x540D;&#xFF1B;&#x552F;&#x4E00;&#x7D22;&#x5F15;&#xFF1A; uk </em>&#x5B57;&#x6BB5;&#x540D; &#xFF1B;&#x666E;&#x901A;&#x7D22;&#x5F15;&#xFF1A;idx _&#x5B57;&#x6BB5;&#x540D;&#x3002;</li>
+<li>&#x5EFA;&#x7EC4;&#x5408;&#x7D22;&#x5F15;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x533A;&#x5206;&#x5EA6;&#x6700;&#x9AD8;&#x7684;&#x5728;&#x6700;&#x5DE6;&#x8FB9;</li>
+<li>&#x5229;&#x7528;&#x8986;&#x76D6;&#x7D22;&#x5F15;&#x6765;&#x8FDB;&#x884C;&#x67E5;&#x8BE2;&#x64CD;&#x4F5C;&#xFF0C;&#x907F;&#x514D;&#x56DE;&#x8868;</li>
+<li>&#x6CE8;&#x610F;&#x9690;&#x5F0F;&#x8F6C;&#x6362;&#xFF0C;&#x7D22;&#x5F15;&#x53EF;&#x80FD;&#x4E0D;&#x751F;&#x6548;&#x3002;select * from user where userid =123;  userid &#x4E3A;&#x5B57;&#x7B26;&#x4E32;&#x7C7B;&#x578B;&#x3002;&#x9ED8;&#x8BA4;&#x8F6C;&#x5316;&#x6574;&#x5F62;&#x3002;&#x5E94;&#x5E26;&#x5355;&#x5F15;&#x53F7;</li>
+<li>&#x6709; order by &#x7684;&#x573A;&#x666F;&#xFF0C;&#x6CE8;&#x610F;&#x7D22;&#x5F15;&#x7684;&#x6709;&#x5E8F;&#x6027;&#x3002;&#x7D22;&#x5F15;&#x5982;&#x679C;&#x5B58;&#x5728;&#x8303;&#x56F4;&#x67E5;&#x8BE2;&#xFF0C;&#x90A3;&#x4E48;&#x7D22;&#x5F15;&#x6709;&#x5E8F;&#x6027;&#x65E0;&#x6CD5;&#x5229;&#x7528;,&#x5982;&#x679C;&#x5FC5;&#x8981;&#x8BF7;&#x628A;&#x7D22;&#x5F15;&#x653E;&#x5728;&#x6700;&#x540E;</li>
+</ul>
+<h2 id="&#x8BED;&#x53E5;&#x89C4;&#x8303;">&#x8BED;&#x53E5;&#x89C4;&#x8303;</h2>
+<ul>
+<li>&#x8D85;&#x8FC7;&#x4E09;&#x4E2A;&#x8868;&#x7981;&#x6B62; join&#x3002;&#x9700;&#x8981; join &#x7684;&#x5B57;&#x6BB5;&#xFF0C;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x4FDD;&#x6301;&#x7EDD;&#x5BF9;&#x4E00;&#x81F4;&#xFF1B;&#x591A;&#x8868;&#x5173;&#x8054;&#x67E5;&#x8BE2;&#x65F6;&#xFF0C;&#x4FDD;&#x8BC1;&#x88AB;&#x5173;&#x8054;&#x7684;&#x5B57;&#x6BB5;&#x9700;&#x8981;&#x6709;&#x7D22;&#x5F15;&#x3002;</li>
+<li>&#x4E0D;&#x8981;&#x4F7F;&#x7528; count(&#x5217;&#x540D;)&#x6216; count(&#x5E38;&#x91CF;)&#x6765;&#x66FF;&#x4EE3; count(<em>)&#xFF0C;count(</em>)&#x4F1A;&#x7EDF;&#x8BA1;&#x503C;&#x4E3A; NULL &#x7684;&#x884C;&#xFF0C;&#x800C; count(&#x5217;&#x540D;)&#x4E0D;&#x4F1A;&#x7EDF;&#x8BA1;&#x6B64;&#x5217;&#x4E3A; NULL &#x503C;&#x7684;&#x884C;&#x3002;</li>
+<li>&#x4EE3;&#x7801;&#x4E2D;&#x5199;&#x5206;&#x9875;&#x67E5;&#x8BE2;&#x903B;&#x8F91;&#x65F6;&#xFF0C;&#x82E5; count &#x4E3A; 0 &#x5E94;&#x76F4;&#x63A5;&#x8FD4;&#x56DE;&#xFF0C;&#x907F;&#x514D;&#x6267;&#x884C;&#x540E;&#x9762;&#x7684;&#x5206;&#x9875;&#x8BED;&#x53E5;&#x3002;</li>
+<li>&#x4E0D;&#x5F97;&#x4F7F;&#x7528;&#x5916;&#x952E;&#x4E0E;&#x7EA7;&#x8054;&#xFF0C;&#x4E00;&#x5207;&#x5916;&#x952E;&#x6982;&#x5FF5;&#x5FC5;&#x987B;&#x5728;&#x5E94;&#x7528;&#x5C42;&#x89E3;&#x51B3;</li>
+<li>&#x2B50;&#x6570;&#x636E;&#x8BA2;&#x6B63;&#xFF08;&#x7279;&#x522B;&#x662F;&#x5220;&#x9664;&#x6216;&#x4FEE;&#x6539;&#x8BB0;&#x5F55;&#x64CD;&#x4F5C;&#xFF09;&#x65F6;&#xFF0C;&#x8981;&#x5148; select&#xFF0C;&#x907F;&#x514D;&#x51FA;&#x73B0;&#x8BEF;&#x5220;&#x9664;&#xFF0C;&#x786E;&#x8BA4;&#x65E0;&#x8BEF;&#x624D;&#x80FD;&#x6267;&#x884C;&#x66F4;&#x65B0;&#x8BED;&#x53E5;</li>
+</ul>
+ 
+          </section>
+          
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+ 
+        </div>
+      </div>
+      
+    </div>
+
+     
+    <a
+      href="日志规范.html"
+      class="
+        navigation navigation-prev
+        
+      "
+      aria-label="Previous page: 日志规范"
+    >
+      <i class="fa fa-angle-left"></i>
+    </a>
+     
+    <a
+      href="项目规范.html"
+      class="
+        navigation navigation-next
+        
+      "
+      aria-label="Next page: 项目规范"
+    >
+      <i class="fa fa-angle-right"></i>
+    </a>
+      
+  </div>
+  <script>
+    function showModal() {
+      document.getElementsByClassName("mask")[0].style.display = "block";
+      document.getElementsByClassName("donate-modal")[0].style.display =
+        "block";
+    }
+    // 切换赞赏码
+    function showDonateImg(num) {
+      let alipay = "";
+      let wxpay = ""
+      if(num){
+        wxpay = "hidden"
+      }else{
+        alipay = "hidden"
+      }
+      document.getElementById("wxpay-code").hidden = wxpay;
+      document.getElementById("alipay-code").hidden = alipay;
+      document.getElementsByName("pay-way")[num].checked = "checked";
+    }
+
+    // 关闭赞赏框
+    function closeDonateModal() {
+      document.getElementsByClassName("mask")[0].style.display = "none";
+      document.getElementsByClassName("donate-modal")[0].style.display = "none";
+    }
+
+    var gitbook = gitbook || [];
+    gitbook.push(function () {
+      gitbook.page.hasChanged({"page":{"title":"MySQL规范","level":"1.5","depth":1,"next":{"title":"项目规范","level":"1.6","depth":1,"path":"项目规范.md","ref":"项目规范.md","articles":[]},"previous":{"title":"日志规范","level":"1.4","depth":1,"path":"日志规范.md","ref":"日志规范.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-sharing","-search","-favicon","code","expandable-chapters","theme-lou","back-to-top-button","search-pro","flexible-alerts","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"search-pro":{},"code":{"copyButtons":true},"theme-lou":{"color":"#2096FF","favicon":"assets/favicon.ico","logo":"assets/logo.png","autoNumber":3,"forbidCopy":false,"search-placeholder":"众里寻他千百度","hide-elements":[".summary .gitbook-link"],"copyright":{"author":"GitBook"}},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"back-to-top-button":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"Attention"},"note":{"className":"info","icon":"fa fa-info-circle","label":"Note"},"style":"flat","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"Tip"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"Warning"},"iconVisibility":"hidden","labelVisibility":"hidden"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"随风","lang":"zh-cn","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"themeLou":{"nav":[{"target":"_blank","url":"https://space.bilibili.com","name":"B站"},{"target":"_blank","url":"https://ke.qq.com/course","name":"腾讯课堂"},{"target":"_blank","url":"https://github.com/p5sf","name":"GitHub"}]}},"title":"开发规范","gitbook":"*","description":"开发规范"},"file":{"path":"MySQL规范.md","mtime":"2023-09-09T08:50:41.555Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-09-09T08:50:55.420Z"},"basePath":".","book":{"language":""}});
+    });
+  </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-flexible-alerts/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-theme-lou/lou.js"></script>
+        
+    
+
+    </body>
+</html>
+
